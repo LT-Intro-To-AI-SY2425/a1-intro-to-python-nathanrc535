@@ -95,7 +95,7 @@ def mean(lst: List[int]) -> float:
     average = 0
     for x in range(0, len(lst)):
         sum += lst[x]
-    average = sum / len(lst)
+    average = sum // len(lst)
     print(average)
     return average
 
@@ -112,7 +112,17 @@ def median(lst: List[int]) -> float:
     Returns:
         the median of the passed in list
     """
-    raise NotImplementedError("median")
+    val1 = 0
+    val2 = 0
+    n = len(lst)
+    if n % 2 != 0:
+        print(lst[n // 2])
+        return lst[n // 2]
+    else:
+        val1 = lst[n // 2]
+        val2 = lst[n // 2 + 1]
+        print((val1 + val2) // 2)
+        return (val1 + val2) // 2
 
 
 def duck_duck_goose(lst: List[str]) -> List[str]:
