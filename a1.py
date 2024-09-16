@@ -62,7 +62,7 @@ def every_other(lst: List[T]) -> List[T]:
     Returns:
         a list of every of other item in the original list starting with the first
     """
-    raise NotImplementedError("every_other")
+    return lst[::2]
 
 
 def sum_list(lst: List[int]) -> int:
@@ -75,6 +75,7 @@ def sum_list(lst: List[int]) -> int:
     Returns:
         the sum of the passed in list
     """
+    
     raise NotImplementedError("sum_list")
 
 
