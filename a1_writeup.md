@@ -14,10 +14,12 @@ Mr. Berg will look at all your files to determine what you have completed.  If t
 
 1. What is your initial thoughts about the python programming language?
 
-
+    The coding lanuage does not seem too bad. It is pretty similar to Java.
 
 2. Describe some similarities and differences that you found between python and other programming languages you have used in the past?
 
-
+    Python has similar while loops, for loops, if statements, and functions like Java and Kotlin. The only difference is how they are written.
 
 3. What are some things that you learned through this assignment?
+    
+    I learned how important indentations are in Python. I also learned how useful AI can be in assisting you in solving coding problems.
