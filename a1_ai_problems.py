@@ -1,5 +1,15 @@
 # Complete your individualized AI problems here
 
+# Write a program that checks if a given string is a palindrome (reads the same forwards and backwards).
+def palindrome(w: str):
+    for x in range(len(w) // 2):
+        if w[x] != w[len(w)-x-1]:
+            return print("This is SOOOOO not a palindrome")
+    return print("This is the best palindrome I have ever seen. Thank you for this splended experience. Have a great day.")
+
+(palindrome("Chicken"))
+(palindrome("racecar"))
+
 def fizbuzz(input_num):
     if(input_num%3==0):
         if(input_num%5==0):
